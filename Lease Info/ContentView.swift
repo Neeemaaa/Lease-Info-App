@@ -1,0 +1,42 @@
+//
+//  ContentView.swift
+//  Lease Info
+//
+//  Created by Neema Tabarani on 12/15/23.
+//
+
+import SwiftUI
+
+struct ContentView: View {
+    @State private var currentMileage: Double = 0.0
+    @State private var selectedMileage: Double = 12000.0 // Default to 12,000
+    @State private var downPayment: Double = 0.0
+    
+    var body: some View {
+        TabView {
+            EnterMileage(currentMileage: $currentMileage, selectedMileage: $selectedMileage)
+                .tabItem {
+                    Image(systemName: "plus")
+                    Text("Enter Mileage")
+                }
+
+            LeaseInfo(currentMileage: currentMileage, selectedMileage: $selectedMileage)
+                .tabItem {
+                    Image(systemName: "car")
+                    Text("Lease Info")
+                }
+            LeaseCalc()
+                .tabItem {
+                    Image(systemName: "dollarsign.circle")
+                    Text("Lease Calculator")
+                }
+
+        }
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}

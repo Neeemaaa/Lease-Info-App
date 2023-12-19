@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		912E65302B2D07160053A014 /* Lease_Info_CheckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912E652F2B2D07160053A014 /* Lease_Info_CheckApp.swift */; };
+		912E65322B2D07160053A014 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912E65312B2D07160053A014 /* ContentView.swift */; };
+		912E65342B2D07170053A014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 912E65332B2D07170053A014 /* Assets.xcassets */; };
+		912E65372B2D07170053A014 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 912E65362B2D07170053A014 /* Preview Assets.xcassets */; };
+		912E65412B2D07170053A014 /* Lease_Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912E65402B2D07170053A014 /* Lease_Info.swift */; };
+		912E654B2B2D07170053A014 /* Lease_Info_CheckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912E654A2B2D07170053A014 /* Lease_Info_CheckUITests.swift */; };
+		912E654D2B2D07170053A014 /* Lease_Info_CheckUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912E654C2B2D07170053A014 /* Lease_Info_CheckUITestsLaunchTests.swift */; };
+		912E655A2B2D07CC0053A014 /* Lease Info Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912E65592B2D07CC0053A014 /* Lease Info Views.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		912E653D2B2D07170053A014 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 912E65242B2D07160053A014 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 912E652B2B2D07160053A014;
+			remoteInfo = "BMW Mileage Check";
+		};
+		912E65472B2D07170053A014 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 912E65242B2D07160053A014 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 912E652B2B2D07160053A014;
+			remoteInfo = "BMW Mileage Check";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		912E652C2B2D07160053A014 /* Lease Info.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lease Info.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		912E652F2B2D07160053A014 /* Lease_Info_CheckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lease_Info_CheckApp.swift; sourceTree = "<group>"; };
+		912E65312B2D07160053A014 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		912E65332B2D07170053A014 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		912E65362B2D07170053A014 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		912E653C2B2D07170053A014 /* Lease InfoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lease InfoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		912E65402B2D07170053A014 /* Lease_Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lease_Info.swift; sourceTree = "<group>"; };
+		912E65462B2D07170053A014 /* Lease InfoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lease InfoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		912E654A2B2D07170053A014 /* Lease_Info_CheckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lease_Info_CheckUITests.swift; sourceTree = "<group>"; };
+		912E654C2B2D07170053A014 /* Lease_Info_CheckUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lease_Info_CheckUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		912E65592B2D07CC0053A014 /* Lease Info Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lease Info Views.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		912E65292B2D07160053A014 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		912E65392B2D07170053A014 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		912E65432B2D07170053A014 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		912E65232B2D07160053A014 = {
+			isa = PBXGroup;
+			children = (
+				912E652E2B2D07160053A014 /* Lease Info */,
+				912E653F2B2D07170053A014 /* Lease Info CheckTests */,
+				912E65492B2D07170053A014 /* Lease InfoCheckUITests */,
+				912E652D2B2D07160053A014 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		912E652D2B2D07160053A014 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				912E652C2B2D07160053A014 /* Lease Info.app */,
+				912E653C2B2D07170053A014 /* Lease InfoTests.xctest */,
+				912E65462B2D07170053A014 /* Lease InfoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		912E652E2B2D07160053A014 /* Lease Info */ = {
+			isa = PBXGroup;
+			children = (
+				912E652F2B2D07160053A014 /* Lease_Info_CheckApp.swift */,
+				912E65312B2D07160053A014 /* ContentView.swift */,
+				912E65592B2D07CC0053A014 /* Lease Info Views.swift */,
+				912E65332B2D07170053A014 /* Assets.xcassets */,
+				912E65352B2D07170053A014 /* Preview Content */,
+			);
+			path = "Lease Info";
+			sourceTree = "<group>";
+		};
+		912E65352B2D07170053A014 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				912E65362B2D07170053A014 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		912E653F2B2D07170053A014 /* Lease Info CheckTests */ = {
+			isa = PBXGroup;
+			children = (
+				912E65402B2D07170053A014 /* Lease_Info.swift */,
+			);
+			path = "Lease Info CheckTests";
+			sourceTree = "<group>";
+		};
+		912E65492B2D07170053A014 /* Lease InfoCheckUITests */ = {
+			isa = PBXGroup;
+			children = (
+				912E654A2B2D07170053A014 /* Lease_Info_CheckUITests.swift */,
+				912E654C2B2D07170053A014 /* Lease_Info_CheckUITestsLaunchTests.swift */,
+			);
+			path = "Lease InfoCheckUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		912E652B2B2D07160053A014 /* Lease Info */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 912E65502B2D07170053A014 /* Build configuration list for PBXNativeTarget "Lease Info" */;
+			buildPhases = (
+				912E65282B2D07160053A014 /* Sources */,
+				912E65292B2D07160053A014 /* Frameworks */,
+				912E652A2B2D07160053A014 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lease Info";
+			productName = "BMW Mileage Check";
+			productReference = 912E652C2B2D07160053A014 /* Lease Info.app */;
+			productType = "com.apple.product-type.application";
+		};
+		912E653B2B2D07170053A014 /* Lease InfoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 912E65532B2D07170053A014 /* Build configuration list for PBXNativeTarget "Lease InfoTests" */;
+			buildPhases = (
+				912E65382B2D07170053A014 /* Sources */,
+				912E65392B2D07170053A014 /* Frameworks */,
+				912E653A2B2D07170053A014 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				912E653E2B2D07170053A014 /* PBXTargetDependency */,
+			);
+			name = "Lease InfoTests";
+			productName = "BMW Mileage CheckTests";
+			productReference = 912E653C2B2D07170053A014 /* Lease InfoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		912E65452B2D07170053A014 /* Lease InfoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 912E65562B2D07170053A014 /* Build configuration list for PBXNativeTarget "Lease InfoUITests" */;
+			buildPhases = (
+				912E65422B2D07170053A014 /* Sources */,
+				912E65432B2D07170053A014 /* Frameworks */,
+				912E65442B2D07170053A014 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				912E65482B2D07170053A014 /* PBXTargetDependency */,
+			);
+			name = "Lease InfoUITests";
+			productName = "BMW Mileage CheckUITests";
+			productReference = 912E65462B2D07170053A014 /* Lease InfoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		912E65242B2D07160053A014 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					912E652B2B2D07160053A014 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					912E653B2B2D07170053A014 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 912E652B2B2D07160053A014;
+					};
+					912E65452B2D07170053A014 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 912E652B2B2D07160053A014;
+					};
+				};
+			};
+			buildConfigurationList = 912E65272B2D07160053A014 /* Build configuration list for PBXProject "Lease Info" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 912E65232B2D07160053A014;
+			productRefGroup = 912E652D2B2D07160053A014 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				912E652B2B2D07160053A014 /* Lease Info */,
+				912E653B2B2D07170053A014 /* Lease InfoTests */,
+				912E65452B2D07170053A014 /* Lease InfoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		912E652A2B2D07160053A014 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				912E65372B2D07170053A014 /* Preview Assets.xcassets in Resources */,
+				912E65342B2D07170053A014 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		912E653A2B2D07170053A014 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		912E65442B2D07170053A014 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		912E65282B2D07160053A014 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				912E65322B2D07160053A014 /* ContentView.swift in Sources */,
+				912E65302B2D07160053A014 /* Lease_Info_CheckApp.swift in Sources */,
+				912E655A2B2D07CC0053A014 /* Lease Info Views.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		912E65382B2D07170053A014 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				912E65412B2D07170053A014 /* Lease_Info.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		912E65422B2D07170053A014 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				912E654B2B2D07170053A014 /* Lease_Info_CheckUITests.swift in Sources */,
+				912E654D2B2D07170053A014 /* Lease_Info_CheckUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		912E653E2B2D07170053A014 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 912E652B2B2D07160053A014 /* Lease Info */;
+			targetProxy = 912E653D2B2D07170053A014 /* PBXContainerItemProxy */;
+		};
+		912E65482B2D07170053A014 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 912E652B2B2D07160053A014 /* Lease Info */;
+			targetProxy = 912E65472B2D07170053A014 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		912E654E2B2D07170053A014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		912E654F2B2D07170053A014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		912E65512B2D07170053A014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lease Info/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Group3.BMW-Mileage-Check";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		912E65522B2D07170053A014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lease Info/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Group3.BMW-Mileage-Check";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		912E65542B2D07170053A014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Group3.BMW-Mileage-CheckTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lease Info.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lease Info";
+			};
+			name = Debug;
+		};
+		912E65552B2D07170053A014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Group3.BMW-Mileage-CheckTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lease Info.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lease Info";
+			};
+			name = Release;
+		};
+		912E65572B2D07170053A014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Group3.BMW-Mileage-CheckUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BMW Mileage Check";
+			};
+			name = Debug;
+		};
+		912E65582B2D07170053A014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Group3.BMW-Mileage-CheckUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BMW Mileage Check";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		912E65272B2D07160053A014 /* Build configuration list for PBXProject "Lease Info" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				912E654E2B2D07170053A014 /* Debug */,
+				912E654F2B2D07170053A014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		912E65502B2D07170053A014 /* Build configuration list for PBXNativeTarget "Lease Info" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				912E65512B2D07170053A014 /* Debug */,
+				912E65522B2D07170053A014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		912E65532B2D07170053A014 /* Build configuration list for PBXNativeTarget "Lease InfoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				912E65542B2D07170053A014 /* Debug */,
+				912E65552B2D07170053A014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		912E65562B2D07170053A014 /* Build configuration list for PBXNativeTarget "Lease InfoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				912E65572B2D07170053A014 /* Debug */,
+				912E65582B2D07170053A014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 912E65242B2D07160053A014 /* Project object */;
+}
