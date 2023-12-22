@@ -77,6 +77,7 @@ struct MileageButton: View {
                 .foregroundColor(.white)
                 .background(selectedMileage == value ? Color.blue : Color.gray)
                 .cornerRadius(8)
+                .clipShape(Circle())
         }
     }
 }
@@ -109,13 +110,20 @@ struct LeaseInfo: View {
         let excessMileage = currentMileage - recommendedMileage
         return excessMileage > 0 ? 0.25 * excessMileage : 0
     }
+    
+    var dateFormatter: DateFormatter {
+        let formatter = DateFormatter()
+        formatter.dateStyle = .long
+        formatter.timeStyle = .none
+        return formatter
+    }
 
     var body: some View {
         VStack(spacing: 12) {
             Text("Lease Information")
                 .font(.title)
                 .bold()
-            Text("Today's Date: \(currentDate)")
+            Text("\(dateFormatter.string(from: currentDate))")
                 .multilineTextAlignment(.center)
 
             Spacer() // Pushes content below the title towards the center
@@ -124,14 +132,15 @@ struct LeaseInfo: View {
             if currentMileage != 0{
                 InfoRow(label: "Current Mileage:", value: String(format: "%.2f", currentMileage))
             InfoRow(label: "Recommended Mileage:", value: String(format: "%.2f", recommendedMileage))
-            InfoRow(label: "Amount Owed if Mileage Not Reduced:", value: String(format: "$%.2f", amountOwedIfMileageNotReduced))
-            
+            if currentMileage >= recommendedMileage {
+                InfoRow(label: "Amount Owed if Mileage Not Reduced:", value: String(format: "$%.2f", amountOwedIfMileageNotReduced))
+            }
             if recommendedMileage > currentMileage {
-                InfoRow(label: "You are under:", value: "\(String(format: "%.2f", recommendedMileage - currentMileage)) miles")
+                InfoRow(label: "You are under", value: "\(String(format: "%.2f", recommendedMileage - currentMileage)) miles")
             } else if currentMileage > recommendedMileage {
-                InfoRow(label: "You are over:", value: "\(String(format: "%.2f", currentMileage - recommendedMileage)) miles")
+                InfoRow(label: "You are over", value: "\(String(format: "%.2f", currentMileage - recommendedMileage)) miles")
             } else {
-                Text("You are chillin'.")
+                Text("You are where you should be.")
             }
                 InfoRow(label: "Your Daily Average Mileage:", value: String(format: "%.2f", averageMileagePerDay))
             }
@@ -149,13 +158,15 @@ struct LeaseInfo: View {
         var value: String
         
         var body: some View {
-            HStack {
+            VStack(alignment: .center, spacing: 4) {
                 Text(label)
                     .foregroundColor(.secondary)
                     .font(.headline)
-                Spacer()
+                    .multilineTextAlignment(.center)
+                
                 Text(value)
                     .font(.body)
+                    .multilineTextAlignment(.center)
             }
         }
     }
